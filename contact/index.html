@@ -1,90 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact US</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Retro Revival</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Get in touch with Retro Revival. Reach us via email, phone, or contact form. We're based in Mavelikara, Alappuzha, Kerala." />
 </head>
 <body>
-    <header class="header">
-        <h1 class="header__h1">Contact Us</h1>
-        <nav class="header__nav">
-            <ul class="header__ul">
-                <li> <a href="/">Home</a> </li>
+  <!-- Header -->
+  <header class="header">
+    <h1 class="header__h1">Contact Us</h1>
+    <nav class="header__nav">
+      <ul class="header__ul">
+        <li><a href="/">Home</a></li>
+      </ul>
+    </nav>
+  </header>
 
-                     
+  <!-- Main Section -->
+  <section class="main-section">
+    <main class="main__article contact">
+      <h1>Contact Us</h1>
+      <p>If you have any questions or concerns, we’re here to help. You can reach us via email at 
+        <a href="mailto:retrorivival.co@gmail.com">retrorivival.co@gmail.com</a> or through our contact form below.</p>
+      <p><strong>Business Hours:</strong> Mon–Sat, 9:00 AM – 6:00 PM IST</p>
 
+      <article class="main__article">
+        <h2 class="contact__h2">Our Location</h2>
+        <address>
+          Retro Revival<br />
+          Mavelikara, Alappuzha, Kerala, India<br />
+          <br />
+          Phone: <a href="tel:+916282433021">+91 6282433021</a>
+        </address>
+      </article>
+    </main>
 
-            </ul>
-        </nav>
-</header>
-    
-        <section class="hero">
-            <figure>
-                <img src="https://thumbs.dreamstime.com/z/traditional-mexican-tacos-blue-plate-ready-to-eat-top-view-close-up-111825947.jpg" alt="Tacos ready to EAT!!!" width=1000 height="667">
-                <figcaption class="offscreen">Custom printed thshirts</figcaption>
-            </figure>
-        </section>
+    <article class="main__article">
+      <h2 class="contact__h2">Contact Form</h2>
+      <form class="contact__form">
+        <fieldset class="contact__form__fieldset">
+          <legend class="offscreen">Send Us a Message</legend>
 
-        <section class="main-section">
-        <main class="main__article contact ">
-            <h1>Contact Us</h1>
-<p>If you have any questions or concerns, we’re here to help. You can reach us via email at support@retrofahsion.online or through our contact form on this page
-            <article class="main__article">
-                <h2 class="contact__h2">Our Location</h2>
-                <address>
-                    555 taco Temptationlane, suite <br>
-                    Kansas City, MO 55555-9090 <br>
-                    <br>
-                    Phone: <a href="tel:+55555-9090">55555-9090</a>
-                </address>
-               </article>
-        </main>
-          <article class="main__article">
+          <p class="contact__p">
+            <label class="contact__label">Name:<br />
+              <input class="contact__input" name="firstName" placeholder="Your Name" required />
+            </label>
+          </p>
 
+          <p class="contact__p">
+            <label class="contact__label">Email:<br />
+              <input class="contact__input" type="email" name="email" placeholder="Your Email" required />
+            </label>
+          </p>
 
-    <h2 class="contact__h2">Contact-Form</h2>
-<form class="contact__form">
-	<fieldset class="contact__form__fieldset">
-	<legend class="ofscreen">Send Us a Message</legend>
-	
-<p class="contact__p">
-		<label class="contact__label">Name:
-            <br> <input class="contact__input" name="firstName" placeholder="Your Name"/></label>
-	</p>
+          <p class="contact__p">
+            <label class="contact__label">Message:<br />
+              <textarea class="contact__textarea" name="message" cols="30" rows="3" placeholder="Type your message here" required></textarea>
+            </label>
+          </p>
 
-<p class="contact__p">
-		<label class="contact__label">Email:
-            <br><input class="contact__input" type="email" name="email" placeholder="Your Email"/></label>
-	</p>
-<p class="contact__p">
-		<label class="contact__label">
-		Message:
-		<br />
-		<textarea class="contact__textarea" name="address" cols="30" rows="3" placeholder="Type Here"></textarea>
-		</label>
-	</p>
+          <button class="contact__button" type="submit">Submit</button>
+          <button class="contact__button" type="reset">Reset</button>
+          <p>We aim to respond to all queries within 24–48 hours.</p>
+        </fieldset>
+      </form>
+    </article>
+  </section>
 
-
-	
-		<button class="contact__button" type="submit">Submit</button>
-		<button class="contact__button" type="submit">Reset</button>
-<p>We aim to respond to all queries within 24–48 hours.</p>
-
-
-	</fieldset>
-</form>
-          </article>
-        </main>
-        </section>
-    
+  <!-- Footer -->
+  <footer class="footer">
+    <p><span class="nowrap">Copyright &copy; </span>
+    <span class="nowrap">Retro Revival</span></p>
+    <p>Email: <a href="mailto:retrorivival.co@gmail.com">retrorivival.co@gmail.com</a> | Phone: <a href="tel:+916282433021">+91 6282433021</a></p>
+  </footer>
 </body>
-<footer class="footer">
-    <p class=""><span class="nowrap">Copyright &copy; </span>
-     <span class="nowrap">Retro Revival</span> </p>
-</footer>
 </html>

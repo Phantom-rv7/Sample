@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Retro Revival</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retro Revival | Custom DTF Printed T-Shirts</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="canonical" href="https://retrofashion.online/" />
+  <link rel="icon" href="Images/favicon.ico" type="image/x-icon" />
+  <meta name="description" content="Retro Revival offers custom DTF-printed t-shirts including oversized, full sleeve, and polo styles. Premium quality, fast shipping." />
+  <meta property="og:title" content="Retro Revival | Custom DTF Printed T-Shirts" />
+  <meta property="og:description" content="Explore our collection of premium DTF-printed t-shirts. Oversized, soft, and polo variants available." />
+  <meta property="og:image" content="Images/front.jpg" />
+  <meta property="og:type" content="website" />
+
+  <!-- Razorpay & Google Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Retro Printed T-Shirt – Oversized Fit",
+    "image": [
+      "https://retrofashion.online/Images/front.jpg",
+      "https://retrofashion.online/Images/back.jpg"
+    ],
+    "description": "DTF-printed oversized t-shirt featuring retro-inspired typography. 100% cotton, available in multiple sizes.",
+    "sku": "RR-OVS-RED",
+    "brand": {
+      "@type": "Brand",
+      "name": "Retro Revival"
+    },
+    "category": "Apparel > T-Shirts",
+    "material": "Cotton",
+    "color": "Red",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "INR",
+      "price": "899",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": {
+        "@type": "Organization",
+        "name": "Retro Revival",
+        "email": "retrorivival.co@gmail.com",
+        "telephone": "+91 6282433021",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Mavelikara",
+          "addressLocality": "Alappuzha",
+          "addressRegion": "Kerala",
+          "addressCountry": "India"
+        }
+      }
+    }
+  }
+  </script>
 </head>
 <body>
   <!-- Header -->
@@ -13,7 +62,6 @@
     <h1 class="header__h1">Retro Revival</h1>
     <nav class="header__nav">
       <ul class="header__ul">
-        <li><a href="#menu">Menu</a></li>
         <li><a href="contact/">Contact Us</a></li>
         <li><a href="privacy/">Privacy Policy</a></li>
         <li><a href="terms/">Terms & Conditions</a></li>
@@ -24,68 +72,47 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2 class="hero__h2">Welcome to Retro Revival!</h2>
-    <figure>
-      <img src="https://i.pinimg.com/originals/55/24/cd/5524cd51af7d0b34763eafe84164ddba.png" 
-           alt="Custom Printed T-Shirts" width="1000" height="667">
-      <figcaption class="offscreen">Custom Printed T-Shirts</figcaption>
-    </figure>
-  </section>
-
   <!-- Main Section -->
   <main class="main-section">
+    <!-- Brand Logo -->
+    <div class="brand-logo" style="text-align:center; margin-bottom: 20px;">
+      <img src="Images/4.png" alt="Retro Revival Brand Logo with Stylized R and Horse" width="200" />
+    </div>
+
     <article id="menu" class="main__article menu">
       <h2 id="menu__h2">Our Collection</h2>
-      <table class="menu__container">
-        <thead>
-          <tr>
-            <th class="menu__header" scope="col">Product</th>
-            <th class="menu__header" scope="col">Variant</th>
-            <th class="menu__header" scope="col">Price</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="menu__item">Oversized Half Sleeve</td>
-            <td class="menu__item">1</td>
-            <td class="menu__item">Rs 150</td>
-          </tr>
-          <tr>
-            <td class="menu__item">Oversized Full Sleeve</td>
-            <td class="menu__item">2</td>
-            <td class="menu__item">Rs 250</td>
-          </tr>
-          <tr>
-            <td class="menu__item">Oversized Polo</td>
-            <td class="menu__item">3</td>
-            <td class="menu__item">Rs 325</td>
-          </tr>
-          <tr>
-            <td class="menu__item">Soft Half Sleeve</td>
-            <td class="menu__item">1</td>
-            <td class="menu__item">Rs 200</td>
-          </tr>
-          <tr>
-            <td class="menu__item">Soft Full Sleeve</td>
-            <td class="menu__item">2</td>
-            <td class="menu__item">Rs 350</td>
-          </tr>
-          <tr>
-            <td class="menu__item">Soft Polo</td>
-            <td class="menu__item">3</td>
-            <td class="menu__item">Rs 450</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td class="menu__item menu__cs" colspan="3">
-              All products are custom printed with premium DTF quality.
-            </td>
-          </tr>
-        </tfoot>
-      </table>
+
+      <section class="product-details">
+        <h2>Product Information</h2>
+
+        <div class="product-card">
+          <figure>
+            <img src="Images/front.jpg" alt="Retro Printed Oversized T-Shirt Front" width="400" />
+            <figcaption>Front View</figcaption>
+          </figure>
+          <figure>
+            <img src="Images/back.jpg" alt="Retro Printed Oversized T-Shirt Back" width="400" />
+            <figcaption>Back View</figcaption>
+          </figure>
+        </div>
+
+        <ul class="product-meta">
+          <li><strong>Product Name:</strong> Retro Printed T-Shirt – Oversized Fit</li>
+          <li><strong>Category:</strong> Oversized &gt; T-Shirts</li>
+          <li><strong>Description:</strong> DTF-printed oversized t-shirt featuring retro-inspired typography. 100% cotton, available in multiple sizes.</li>
+          <li><strong>Material:</strong> Cotton</li>
+          <li><strong>Color:</strong> Red</li>
+          <li><strong>Available Sizes:</strong> S, M, L, XL</li>
+          <li><strong>Price:</strong> ₹199</li>
+          <li><strong>Condition:</strong> New</li>
+          <li><strong>Availability:</strong> In Stock</li>
+          <li><strong>Ships To:</strong> Across India</li>
+        </ul>
+
+        <p class="compliance-note">
+          All products are custom printed with premium DTF quality. Ensure policy pages (Privacy, Terms, Refunds, Shipping, Contact) are live for Razorpay verification.
+        </p>
+      </section>
 
       <p class="center">
         <a href="#top">Back to Top</a>
@@ -94,7 +121,7 @@
   </main>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer" style="background-color: brown;">
     <p>
       <span class="nowrap">Copyright &copy; </span>
       <span class="nowrap">Retro Revival</span>
@@ -107,6 +134,8 @@
       <li><a href="shipping/">Shipping Policy</a></li>
       <li><a href="about/">About Us</a></li>
     </ul>
+    <p>Contact Email: <a href="mailto:retrorivival.co@gmail.com">retrorivival.co@gmail.com</a></p>
+    <p>Phone: <a href="tel:+916282433021">+91 6282433021</a></p>
   </footer>
 </body>
 </html>
